@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: #f0f2f5;
+}
+.container {
+  max-width: 500px;
+  margin: 2rem auto;
+  border-radius: 20px;
+  background-color: #fff;
+  z-index: -2;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  position: relative;
+}
+.header h2 {
+  color: #395996;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.patrocinado {
+  display: flex;
+  align-items: center;
+}
+.patrocinado img {
+  width: 20px;
+  height: 20px;
+  margin-left: 1rem;
+}
+.patrocinado p {
+  color: #606770;
+}
+.pontos {
+  position: absolute;
+  right: 1.0rem;
+  cursor: pointer;
+  width: 1.5rem;
+}
+
+.conteudo {
+  margin: 1rem;
+}
+.banner {
+  width: 100%;
+}
+.contagem {
+  display: flex;
+  color: #606770;
+  justify-content: space-between;
+  align-items: center; 
+}
+.likes {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.likes .coracao {
+  position: relative;
+  left: -5px;
+  z-index: 0;
+}
+.likes img {
+  width: 2rem;
+  height: 2rem;
+}
+.likes .curtir {
+  cursor: pointer;
+  z-index: 2;
+}
+.shares {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0.8rem 0;
+  margin: 0 auto;
+  border-top: 1px solid;
+  color: #13138e;
+}
+.btns div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.btns div img {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 5px;
+}
+.btns div label {
+  cursor: pointer;
+}
+.comentar {
+  margin: 1rem;
+  border: none;
+}
+.comentarios {
+  display: flex;
+  padding: 1.5rem;
+}
+.comentarios img {
+  border-radius: 50%;
+  margin-right: 1rem;
+  width: unset;
+  width: 70px;
+  height: 70px;
+}
+
+
+.comentarios div a {
+  font-weight: 400;
+  color: rgb(83, 26, 226);
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+
